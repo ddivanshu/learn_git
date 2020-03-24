@@ -34,4 +34,3 @@ https://stackoverflow.com/questions/927358/how-do-i-undo-the-most-recent-local-c
 
 10)Remove file after it has been pushed.
 
-11) git stash pop puts in the staging
