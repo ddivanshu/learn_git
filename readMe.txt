@@ -31,3 +31,5 @@ https://stackoverflow.com/questions/927358/how-do-i-undo-the-most-recent-local-c
   8)Resolving merge conflict using rebase
   
   9)When to use merge and when rebase?
+
+10)Remove file after it has been pushed.
