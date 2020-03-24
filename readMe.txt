@@ -15,3 +15,12 @@ https://stackoverflow.com/questions/927358/how-do-i-undo-the-most-recent-local-c
 4) Scenario : Reverting last merge / last comit in the branch like when production system fails.
    Command : git revert HEAD , then git push
    This wont override anything but will create a new commit over latest commit nullfyling its affect.
+   
+  5)When remote branch is ahead of curent branch.
+  
+  6) Resolving merge conflict using merge
+  
+  7)Resolving merge conflict using rebase
+  
+  8)When to use merge and when rebase?
+  
