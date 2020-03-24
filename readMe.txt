@@ -33,3 +33,5 @@ https://stackoverflow.com/questions/927358/how-do-i-undo-the-most-recent-local-c
   9)When to use merge and when rebase?
 
 10)Remove file after it has been pushed.
+
+11) git stash pop puts in the staging
