@@ -10,7 +10,7 @@ https://stackoverflow.com/questions/927358/how-do-i-undo-the-most-recent-local-c
 
 3) Git has one remote and one local brannch.When you checkout it gives you the local branch for example in case of git checkout master , it will be local data only with +- comits ahead .For sync you need to do git pull
 
-4) How to merge previous commits into single commit
+4) How to merge previous commits into single commit : use interactive rebase and squash or fixup
 
 5)How to change message of previous commits
 
