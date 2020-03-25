@@ -81,3 +81,6 @@ git bisect bad
 
 15)Git show will tell you exact author details, commit message and what changes to which file were done.
 example git show commithash
+
+16)git reset hard soft mixed
+https://stackoverflow.com/questions/3528245/whats-the-difference-between-git-reset-mixed-soft-and-hard
