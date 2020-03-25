@@ -1,5 +1,4 @@
-This project is solely created to explore git
-
+Github
 
 1) For reverting back tha last commit into local 
  git reset HEAD~1
@@ -19,19 +18,18 @@ https://stackoverflow.com/questions/927358/how-do-i-undo-the-most-recent-local-c
 git commit --amend -m "abccc"
 you can add more file and all the staged filed will adup in previous commit with new message.
 
-
-4) Scenario : Reverting last merge / last comit in the branch like when production system fails.
+7) Scenario : Reverting last merge / last comit in the branch like when production system fails.
    Command : git revert HEAD , then git push
    This wont override anything but will create a new commit over latest commit nullfyling its affect.
-   
-  6)When remote branch is ahead of curent branch. 
+  
+6)When remote branch is ahead of curent branch. 
   git pull
   (resolve conflicts)
   git merge --continue
   repeat
   git push
   
-  7) Resolving merge conflict using merge
+8) Resolving merge conflict using merge
   checkout feature branch
   git pull origin master
   resolve conflicts and add file to staging
@@ -40,7 +38,7 @@ you can add more file and all the staged filed will adup in previous commit with
   git push
   
   
-  8)Resolving merge conflict using rebase
+9)Resolving merge conflict using rebase
  go to feature branch
  git rebase master
  resolve conflict
@@ -49,16 +47,16 @@ repeat
 git push
  
   
-  9)When to use merge and when rebase?
+10)When to use merge and when rebase?
 
-10)Remove file after it has been pushed.
+11)Remove file after it has been pushed.
 
-11) interactive rebase
+12) interactive rebase
 
-12) cherry pick : Picking up commit from some other branch and applying changes on current branch.
+13) cherry pick : Picking up commit from some other branch and applying changes on current branch.
 git cherry-pick commitHash or git cherry-pick --no-commit commitHash 
 ( In the former commit will be made and in later it would be added in staging) 
 https://www.atlassian.com/git/tutorials/cherry-pick
  
 
-13) git bisect
+14) git bisect
