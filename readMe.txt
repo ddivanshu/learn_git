@@ -41,6 +41,13 @@ you can add more file and all the staged filed will adup in previous commit with
   
   
   8)Resolving merge conflict using rebase
+ go to feature branch
+ git rebase master
+ resolve conflict
+  git rebase --continue
+repeat
+git push
+ 
   
   9)When to use merge and when rebase?
 
