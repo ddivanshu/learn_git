@@ -10,9 +10,9 @@ https://stackoverflow.com/questions/927358/how-do-i-undo-the-most-recent-local-c
 
 3) Git has one remote and one local brannch.When you checkout it gives you the local branch for example in case of git checkout master , it will be local data only with +- comits ahead .For sync you need to do git pull
 
-4) How to merge previous commits into single commit
+4) How to merge previous commits into single commit : use interactive rebase and squash or fixup
 
-5)How to change message of previous commits
+5)How to change message of previous commits.Use ineractive rebase and use reword.
 
 6)Change previous commit:
 git commit --amend -m "abccc"
@@ -61,3 +61,23 @@ https://www.atlassian.com/git/tutorials/cherry-pick
  
 
 14) git bisect
+
+12) interactive rebase
+git rebase -i HEAD~3
+
+13) cherry pick : Picking up commit from some other branch and applying changes on current branch.
+git cherry-pick commitHash or git cherry-pick --no-commit commitHash 
+( In the former commit will be made and in later it would be added in staging) 
+https://www.atlassian.com/git/tutorials/cherry-pick
+ 
+
+14) git bisect will help youin finding bug using binary search .
+git bisect start
+git bisect good commithash
+git bisect bad commithash
+git bisect good
+git bisect bad
+
+
+15)Git show will tell you exact author details, commit message and what changes to which file were done.
+example git show commithash
