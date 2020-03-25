@@ -53,3 +53,7 @@ git push
 
 10)Remove file after it has been pushed.
 
+11) interactive rebase
+
+12) cherry pick
+
