@@ -58,4 +58,3 @@ git push
 12) cherry pick
 
 13) git bisect
-
