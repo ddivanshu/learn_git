@@ -89,3 +89,4 @@ When using git reset --soft HEAD~1 you will remove the last commit from the curr
 17) revert 4-5 commits
  git reset --hard 5d7629b5b84af376403a0760c9c000b1c0aaf
  git push -f
+ or git revert multiple times starting from last
