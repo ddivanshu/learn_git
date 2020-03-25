@@ -13,7 +13,12 @@ https://stackoverflow.com/questions/927358/how-do-i-undo-the-most-recent-local-c
 
 4) How to merge previous commits into single commit
 
-5)How to change message of previous commit
+5)How to change message of previous commits
+
+6)Change previous commit:
+git commit --amend -m "abccc"
+you can add more file and all the staged filed will adup in previous commit with new message.
+
 
 4) Scenario : Reverting last merge / last comit in the branch like when production system fails.
    Command : git revert HEAD , then git push
