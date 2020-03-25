@@ -60,4 +60,13 @@ git cherry-pick commitHash or git cherry-pick --no-commit commitHash
 https://www.atlassian.com/git/tutorials/cherry-pick
  
 
-14) git bisect
+14) git bisect will help youin finding bug using binary search .
+git bisect start
+git bisect good commithash
+git bisect bad commithash
+git bisect good
+git bisect bad
+
+
+15)Git show will tell you exact author details, commit message and what changes to which file were done.
+example git show commithash
