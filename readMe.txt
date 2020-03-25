@@ -27,6 +27,13 @@ https://stackoverflow.com/questions/927358/how-do-i-undo-the-most-recent-local-c
   git push
   
   7) Resolving merge conflict using merge
+  checkout feature branch
+  git pull origin master
+  resolve conflicts and add file to staging
+  git merge --continue
+  Repeat
+  git push
+  
   
   8)Resolving merge conflict using rebase
   
