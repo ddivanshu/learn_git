@@ -55,6 +55,10 @@ git push
 
 11) interactive rebase
 
-12) cherry pick
+12) cherry pick : Picking up commit from some other branch and applying changes on current branch.
+git cherry-pick commitHash or git cherry-pick --no-commit commitHash 
+( In the former commit will be made and in later it would be added in staging) 
+https://www.atlassian.com/git/tutorials/cherry-pick
+ 
 
 13) git bisect
