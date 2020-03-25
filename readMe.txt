@@ -52,6 +52,7 @@ git push
 11)Remove file after it has been pushed.
 
 12) interactive rebase
+git rebase -i HEAD~3
 
 13) cherry pick : Picking up commit from some other branch and applying changes on current branch.
 git cherry-pick commitHash or git cherry-pick --no-commit commitHash 
