@@ -14,6 +14,8 @@ https://stackoverflow.com/questions/927358/how-do-i-undo-the-most-recent-local-c
 
 5)How to change message of previous commits.Use ineractive rebase and use reword.
 
+6)Change previous commit : use git rebase and then use edit to the commit which you want to do and then use rebase --continue
+
 6)Change previous commit:
 git commit --amend -m "abccc"
 you can add more file and all the staged filed will adup in previous commit with new message.
@@ -47,7 +49,7 @@ repeat
 git push
  
   
-10)When to use merge and when rebase?
+10)When to use merge and when rebase? basically rebase is great option if you want to maintain a clean history and do not want unnecessary merge commits but should not be applied to a public branch.
 
 11)Remove file after it has been pushed.
 
@@ -59,19 +61,16 @@ git cherry-pick commitHash or git cherry-pick --no-commit commitHash
 ( In the former commit will be made and in later it would be added in staging) 
 https://www.atlassian.com/git/tutorials/cherry-pick
  
-
-14) git bisect
-
-12) interactive rebase
+14) interactive rebase
 git rebase -i HEAD~3
 
-13) cherry pick : Picking up commit from some other branch and applying changes on current branch.
+15) cherry pick : Picking up commit from some other branch and applying changes on current branch.
 git cherry-pick commitHash or git cherry-pick --no-commit commitHash 
 ( In the former commit will be made and in later it would be added in staging) 
 https://www.atlassian.com/git/tutorials/cherry-pick
  
 
-14) git bisect will help youin finding bug using binary search .
+16) git bisect will help youin finding bug using binary search .
 git bisect start
 git bisect good commithash
 git bisect bad commithash
