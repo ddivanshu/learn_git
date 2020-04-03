@@ -55,22 +55,17 @@ git push
 
 12) interactive rebase
 git rebase -i HEAD~3
-
-13) cherry pick : Picking up commit from some other branch and applying changes on current branch.
-git cherry-pick commitHash or git cherry-pick --no-commit commitHash 
-( In the former commit will be made and in later it would be added in staging) 
-https://www.atlassian.com/git/tutorials/cherry-pick
  
-14) interactive rebase
+13) interactive rebase
 git rebase -i HEAD~3
 
-15) cherry pick : Picking up commit from some other branch and applying changes on current branch.
+14) cherry pick : Picking up commit from some other branch and applying changes on current branch.
 git cherry-pick commitHash or git cherry-pick --no-commit commitHash 
 ( In the former commit will be made and in later it would be added in staging) 
 https://www.atlassian.com/git/tutorials/cherry-pick
  
 
-16) git bisect will help youin finding bug using binary search .
+15) git bisect will help youin finding bug using binary search .
 git bisect start
 git bisect good commithash
 git bisect bad commithash
@@ -88,4 +83,4 @@ When using git reset --soft HEAD~1 you will remove the last commit from the curr
 17) revert 4-5 commits
  git reset --hard 5d7629b5b84af376403a0760c9c000b1c0aaf
  git push -f
- or git revert multiple times starting from last
+ or git revert multiple times starting from last (Always avoid push -f wherever possible)
